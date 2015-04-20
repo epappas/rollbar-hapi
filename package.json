@@ -1,0 +1,43 @@
+{
+    "name": "rollbar-hapi",
+    "version": "0.0.1",
+    "description": "A Hapi plugin for rollbar painless integration",
+    "author": "Evangelos Pappas <epappas@evalonlabs.com>",
+    "scripts": {
+        "test": "mocha test",
+        "jshint": "jshint index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/epappas/rollbar-hapi.git"
+    },
+    "pre-commit": [
+        "test",
+        "jshint"
+    ],
+    "keywords": [
+        "log",
+        "logging",
+        "monitor",
+        "monitoring",
+        "error",
+        "rollbar",
+        "hapi",
+        "plugin"
+    ],
+    "dependencies": {
+        "hapi": "^8.4.0",
+        "rollbar": "^0.4.5"
+    },
+    "peerDependencies": {
+        "rollbar": "0.x.x"
+    },
+    "devDependencies": {
+        "mocha": "^1.18.2",
+        "should": "^3.3.1",
+        "superagent": "^0.18.0",
+        "pre-commit": "0.0.9",
+        "hapi": "^8.4.0",
+        "rollbar": "^0.4.5"
+    }
+}

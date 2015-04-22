@@ -1,0 +1,9 @@
+language: node_js
+env:
+  - NODE_ENV=test
+node_js:
+  - "0.12"
+  - "0.11"
+  - "0.10"
+  - "iojs"
+  - "iojs-v1.0.4"

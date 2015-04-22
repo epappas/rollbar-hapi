@@ -1,6 +1,6 @@
 {
     "name": "rollbar-hapi",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A Hapi plugin for rollbar painless integration",
     "author": "Evangelos Pappas <epappas@evalonlabs.com>",
     "engine": "node >= 0.10.x",

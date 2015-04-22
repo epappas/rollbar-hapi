@@ -3,17 +3,16 @@
     "version": "0.0.1",
     "description": "A Hapi plugin for rollbar painless integration",
     "author": "Evangelos Pappas <epappas@evalonlabs.com>",
+    "engine": "node >= 0.10.x",
     "scripts": {
-        "test": "mocha test",
-        "jshint": "jshint index.js"
+        "test": "mocha test"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/epappas/rollbar-hapi.git"
     },
     "pre-commit": [
-        "test",
-        "jshint"
+        "test"
     ],
     "keywords": [
         "log",
